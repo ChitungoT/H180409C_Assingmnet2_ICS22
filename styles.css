@@ -1,0 +1,209 @@
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 241, 241, 0.856);
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+    padding: 0 5%;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+    background-color: gray;
+}
+.nav a:hover{
+    background-color: black;
+}
+.main-header{ 
+    background-color: grey;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.footer{
+    background-color: gray;
+    color: white;
+}
+.about-section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.about-image1{
+    float: right;
+    margin: 15px;
+}
+.about-image2{
+    float: center;
+
+}
+.btn-header{
+    text-align: center;
+    vertical-align: middle;
+    padding: .3em;
+    cursor: pointer;
+    margin: .8em 25% 2em 25%;
+    color: white;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+.btn-play{
+    text-align: center;
+    vertical-align: middle;
+    padding: .3em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    color: royalblue;
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.btn-header:hover{
+    background-color: rgba(14, 13, 13, 0.56);
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding: .5em;
+}
+.tour-date{
+    color: gray;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width: 42%;
+}
+.tour-btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .3em;
+    width: 10%;
+    cursor: pointer;
+    background-color: red;
+    height: 40px;
+    color: wheat;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: gray;
+    cursor: pointer;
+}
+.shop-item{
+    margin: 30px;
+    
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: gray;
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 250px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.price{
+    flex-grow: 1;
+    color: gray;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header{ 
+    font-weight: bold;
+    font-size: 1.25em;
+   color: black;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5en;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 45%;
+}
+.cart-price{
+    width: 20%;
+}
+.cart-quantity{
+    width: 35%;
+}
+.input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: gray;
+    color: honeydew;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-btn{
+    background-color: red;
+    height: 34px;
+    color: wheat;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: gray;
+    cursor: pointer;
+}
+.purchase{
+    text-align: center;
+}
